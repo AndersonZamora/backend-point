@@ -1,6 +1,7 @@
 ﻿using Capa_Entidad;
 using Capa_Negocio;
 using Capa_Validacion;
+using CoreCinCout.helpers;
 
 namespace CoreCinCout
 {
@@ -12,8 +13,15 @@ namespace CoreCinCout
         private readonly ICOSetting mSetting;
         private readonly ILoginCinCout mLoginCin;
         private readonly IValidateSettings mValiSettings;
-
-        public SHandleLogin(IValidarLoginRegister mValidateRL, ICreateHash mHash, ITokenCreate mToken, ICOSetting mSetting, ILoginCinCout mLoginCin, IValidateSettings mValiSettings)
+        private readonly ICheckConnection mCheck;
+        public SHandleLogin(
+            IValidarLoginRegister mValidateRL,
+            ICreateHash mHash,
+            ITokenCreate mToken,
+            ICOSetting mSetting,
+            ILoginCinCout mLoginCin,
+            IValidateSettings mValiSettings,
+            ICheckConnection mCheck)
         {
             this.mValidateRL = mValidateRL;
             this.mHash = mHash;
@@ -21,6 +29,7 @@ namespace CoreCinCout
             this.mSetting = mSetting;
             this.mLoginCin = mLoginCin;
             this.mValiSettings = mValiSettings;
+            this.mCheck = mCheck;
         }
 
         public async Task<Response> ResponseStatusLogin(Login request)
@@ -28,6 +37,9 @@ namespace CoreCinCout
             var settings = mSetting.AppSettings();
             var respVs = mValiSettings.AppSettingValue(settings);
             if (!respVs.Ok) return respVs;
+
+            var resCon = mCheck.Connection(settings.Conn);
+            if (!resCon.Ok) return resCon;
 
             var loRes = mValidateRL.ValidarLogin(request);
             if (!loRes.Ok) return loRes;
@@ -59,6 +71,9 @@ namespace CoreCinCout
             var respVs = mValiSettings.AppSettingValue(settings);
             if (!respVs.Ok) return respVs;
 
+            var resCon = mCheck.Connection(settings.Conn);
+            if (!resCon.Ok) return resCon;
+
             var loRes = mValidateRL.ValidarLogin(request);
             if (!loRes.Ok) return loRes;
 
@@ -89,6 +104,9 @@ namespace CoreCinCout
             var respVs = mValiSettings.AppSettingValue(settings);
             if (!respVs.Ok) return respVs;
 
+            var resCon = mCheck.Connection(settings.Conn);
+            if (!resCon.Ok) return resCon;
+
             var resCin = mValidateRL.ValidarRegisterCinCout(request, settings.State);
             if (!resCin.Ok) return resCin;
 
@@ -116,6 +134,9 @@ namespace CoreCinCout
             var settings = mSetting.AppSettings();
             var respVs = mValiSettings.AppSettingValue(settings);
             if (!respVs.Ok) return respVs;
+
+            var resCon = mCheck.Connection(settings.Conn);
+            if (!resCon.Ok) return resCon;
 
             var getUser = await mLoginCin.GetUser(user.Email, settings.Conn);
             if (getUser == null) return new Response() { Ok = false, Msg = "Something went wrong error code 02, contact CinCout" };

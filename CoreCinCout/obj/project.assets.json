@@ -517,6 +517,21 @@
           "bin/placeholder/Capa_Entidad.dll": {}
         }
       },
+      "Capa_Logica/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Capa_Entidad": "1.0.0",
+          "Capa_Negocio": "1.0.0",
+          "Capa_Validacion": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Capa_Logica.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Capa_Logica.dll": {}
+        }
+      },
       "Capa_Negocio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1444,6 +1459,11 @@
       "path": "../Capa_Entidad/Capa_Entidad.csproj",
       "msbuildProject": "../Capa_Entidad/Capa_Entidad.csproj"
     },
+    "Capa_Logica/1.0.0": {
+      "type": "project",
+      "path": "../Capa_Logica/Capa_Logica.csproj",
+      "msbuildProject": "../Capa_Logica/Capa_Logica.csproj"
+    },
     "Capa_Negocio/1.0.0": {
       "type": "project",
       "path": "../Capa_Negocio/Capa_Negocio.csproj",
@@ -1458,6 +1478,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Capa_Entidad >= 1.0.0",
+      "Capa_Logica >= 1.0.0",
       "Capa_Negocio >= 1.0.0",
       "Capa_Validacion >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.10",
@@ -1494,6 +1515,9 @@
           "projectReferences": {
             "D:\\CINCOUT\\pointSale\\backend\\CoreCinCout\\Capa_Entidad\\Capa_Entidad.csproj": {
               "projectPath": "D:\\CINCOUT\\pointSale\\backend\\CoreCinCout\\Capa_Entidad\\Capa_Entidad.csproj"
+            },
+            "D:\\CINCOUT\\pointSale\\backend\\CoreCinCout\\Capa_Logica\\Capa_Logica.csproj": {
+              "projectPath": "D:\\CINCOUT\\pointSale\\backend\\CoreCinCout\\Capa_Logica\\Capa_Logica.csproj"
             },
             "D:\\CINCOUT\\pointSale\\backend\\CoreCinCout\\Capa_Negocio\\Capa_Negocio.csproj": {
               "projectPath": "D:\\CINCOUT\\pointSale\\backend\\CoreCinCout\\Capa_Negocio\\Capa_Negocio.csproj"

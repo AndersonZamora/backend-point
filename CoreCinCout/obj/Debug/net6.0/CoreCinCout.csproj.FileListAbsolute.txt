@@ -27,9 +27,11 @@ D:\CINCOUT\pointSale\backend\CoreCinCout\CoreCinCout\bin\Debug\net6.0\runtimes\u
 D:\CINCOUT\pointSale\backend\CoreCinCout\CoreCinCout\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\CINCOUT\pointSale\backend\CoreCinCout\CoreCinCout\bin\Debug\net6.0\Capa_Datos.dll
 D:\CINCOUT\pointSale\backend\CoreCinCout\CoreCinCout\bin\Debug\net6.0\Capa_Entidad.dll
+D:\CINCOUT\pointSale\backend\CoreCinCout\CoreCinCout\bin\Debug\net6.0\Capa_Logica.dll
 D:\CINCOUT\pointSale\backend\CoreCinCout\CoreCinCout\bin\Debug\net6.0\Capa_Negocio.dll
 D:\CINCOUT\pointSale\backend\CoreCinCout\CoreCinCout\bin\Debug\net6.0\Capa_Validacion.dll
 D:\CINCOUT\pointSale\backend\CoreCinCout\CoreCinCout\bin\Debug\net6.0\Capa_Entidad.pdb
+D:\CINCOUT\pointSale\backend\CoreCinCout\CoreCinCout\bin\Debug\net6.0\Capa_Logica.pdb
 D:\CINCOUT\pointSale\backend\CoreCinCout\CoreCinCout\bin\Debug\net6.0\Capa_Negocio.pdb
 D:\CINCOUT\pointSale\backend\CoreCinCout\CoreCinCout\bin\Debug\net6.0\Capa_Validacion.pdb
 D:\CINCOUT\pointSale\backend\CoreCinCout\CoreCinCout\bin\Debug\net6.0\Capa_Datos.pdb

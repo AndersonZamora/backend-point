@@ -18,8 +18,6 @@ namespace CoreCinCout
 
         public ClaimsIdent GetIdent(HttpContext httpContext)
         {
-            //var test = _context.HttpContext.User.Claims.FirstOrDefault(e => e.Type == ClaimTypes.NameIdentifier).Value;
-
             if (httpContext.User.Identity is ClaimsIdentity identity)
             {
                 string email = identity.Claims.FirstOrDefault(o => o.Type == ClaimTypes.Email).Value;

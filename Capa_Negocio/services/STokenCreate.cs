@@ -1,6 +1,5 @@
 ﻿using Capa_Entidad;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.Win32.SafeHandles;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;

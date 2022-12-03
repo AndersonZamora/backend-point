@@ -68,9 +68,14 @@ namespace Capa_Negocio
                     {
                         Id = Convert.ToInt16(data.Rows[0]["Id"]),
                         FullName = data.Rows[0]["FullName"].ToString(),
-                        IdRol = Convert.ToInt16(data.Rows[0]["IdRol"]),
                         Password = data.Rows[0]["Password"].ToString(),
-                        Email = data.Rows[0]["Email"].ToString()
+                        Email = data.Rows[0]["Email"].ToString(),
+                        IdRol = Convert.ToInt16(data.Rows[0]["IdRol"]),
+                        Usuername = data.Rows[0]["Password"].ToString(),
+                        Data = data.Rows[0]["Data"].ToString(),
+                        Initial = data.Rows[0]["Initial"].ToString(),
+                        User = data.Rows[0]["UserD"].ToString(),
+                        Contrasenia = data.Rows[0]["Contrasenia"].ToString()
                     };
 
                     return usuario;

@@ -17,9 +17,4 @@
     <ProjectReference Include="..\Capa_Validacion\Capa_Validacion.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="IPoint\" />
-    <Folder Include="SPoint\" />
-  </ItemGroup>
-
 </Project>

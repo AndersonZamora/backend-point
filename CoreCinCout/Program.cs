@@ -1,8 +1,10 @@
 using Capa_Datos;
 using Capa_Entidad;
+using Capa_Logica;
 using Capa_Negocio;
 using Capa_Validacion;
 using CoreCinCout;
+using CoreCinCout.helpers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -45,6 +47,13 @@ builder.Services.AddAuthentication(config =>
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<IBD_CinCout, SBD_CinCout>();
+builder.Services.AddScoped<ICategoriaDB, SCategoriaDB>();
+builder.Services.AddScoped<ICateNegocio, SCateNegocio>();
+builder.Services.AddScoped<ILogicaCate, SLogicaCate>();
+builder.Services.AddScoped<ICheckConnection, SCheckConnection>();
+builder.Services.AddScoped<IValidarCategoria, SValidarCategoria>();
+builder.Services.AddScoped<ICategoria, SCategoria>();
+builder.Services.AddScoped<IConnection, SConnection>();
 builder.Services.AddScoped<ICreateHash, SCreateHash>();
 builder.Services.AddScoped<ILoginCinCout, SLoginCinCout>();
 builder.Services.AddScoped<ITokenCreate, STokenCreate>();
@@ -56,11 +65,9 @@ builder.Services.AddScoped<IHandleLogin, SHandleLogin>();
 builder.Services.AddScoped<IDB_Usuario, SDB_Usuario>();
 builder.Services.AddScoped<ILoginUsuario, SLoginUsuario>();
 builder.Services.AddEndpointsApiExplorer();
-//builder.Services.AddSwaggerGen();  
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     //app.UseSwagger();

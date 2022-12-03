@@ -25,6 +25,13 @@ namespace Capa_Validacion
             }
         }
 
+        public bool ValidarLetrasNumeros(string value)
+        {
+            Regex regex = new("^[a-zA-Z0-9 ]+$");
+            Match match = regex.Match(value);
+            return match.Success;
+        }
+
         public bool ValidarLonguitud(string value, int length1, int length2)
         {
             if (value.Length < length1 || value.Length > length2) return true;
@@ -50,5 +57,6 @@ namespace Capa_Validacion
             Match match = regex.Match(value);
             return match.Success;
         }
+
     }
 }
