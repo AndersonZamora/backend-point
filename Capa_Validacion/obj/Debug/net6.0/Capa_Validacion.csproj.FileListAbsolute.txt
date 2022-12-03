@@ -1,0 +1,15 @@
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\bin\Debug\net6.0\Capa_Validacion.deps.json
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\bin\Debug\net6.0\Capa_Validacion.dll
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\bin\Debug\net6.0\Capa_Validacion.pdb
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\bin\Debug\net6.0\Capa_Entidad.dll
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\bin\Debug\net6.0\Capa_Entidad.pdb
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\obj\Debug\net6.0\Capa_Validacion.csproj.AssemblyReference.cache
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\obj\Debug\net6.0\Capa_Validacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\obj\Debug\net6.0\Capa_Validacion.AssemblyInfoInputs.cache
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\obj\Debug\net6.0\Capa_Validacion.AssemblyInfo.cs
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\obj\Debug\net6.0\Capa_Validacion.csproj.CoreCompileInputs.cache
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\obj\Debug\net6.0\Capa_Validacion.csproj.CopyComplete
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\obj\Debug\net6.0\Capa_Validacion.dll
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\obj\Debug\net6.0\refint\Capa_Validacion.dll
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\obj\Debug\net6.0\Capa_Validacion.pdb
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Validacion\obj\Debug\net6.0\ref\Capa_Validacion.dll

@@ -1,0 +1,7 @@
+.vs/
+CoreCinCout/bin/
+CoreCinCout/bin/Debug/
+CoreCinCout/appsettings.json
+Capa_Datos/bin/
+Capa_Entidad/bin/
+Capa_Validacion/bin/

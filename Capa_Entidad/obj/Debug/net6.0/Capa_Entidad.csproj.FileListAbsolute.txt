@@ -1,0 +1,12 @@
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Entidad\bin\Debug\net6.0\Capa_Entidad.deps.json
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Entidad\bin\Debug\net6.0\Capa_Entidad.dll
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Entidad\bin\Debug\net6.0\Capa_Entidad.pdb
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.csproj.AssemblyReference.cache
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.GeneratedMSBuildEditorConfig.editorconfig
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.AssemblyInfoInputs.cache
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.AssemblyInfo.cs
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.csproj.CoreCompileInputs.cache
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.dll
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Entidad\obj\Debug\net6.0\refint\Capa_Entidad.dll
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Entidad\obj\Debug\net6.0\Capa_Entidad.pdb
+D:\CINCOUT\pointSale\backend\CoreCinCout\Capa_Entidad\obj\Debug\net6.0\ref\Capa_Entidad.dll
